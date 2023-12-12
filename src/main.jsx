@@ -19,6 +19,7 @@ ReactDOM.createRoot(rootElement).render(
             <Navbar />
             <Routes>
                 <Route exact path="/" element={<Homepage />} />
+                <Route exact path="/EPI-dashboard" element={<Homepage />} />
                 <Route path="/bubble" element={<Bubble />} />
                 <Route path="/world-map" element={<WorldMap />} />
                 {/* <Route path="https://opal.ils.unc.edu/~albao/inls-641/final/alicia/"/> */}
