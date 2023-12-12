@@ -34,7 +34,7 @@ const HomePage = () => {
                             Dive deep, uncover correlations with socioeconomic factors, and embark on a journey
                             of discovery with this powerful analytical tool.
                         </p>
-                        <a className="btn btn-lg" href="https://louisepeipei.github.io/bubble" target="_blank" role="button" style={{ backgroundColor: '#a1c9ff' }}>Get started</a>
+                        <Link className="btn btn-lg" to="/bubble" role="button" style={{ backgroundColor: '#a1c9ff' }}>Get started</Link>
                         <a className="btn btn-lg" href="https://epi.yale.edu/about-epi" target="_blank" role="button" style={{ backgroundColor: '#e0eaff' }}>Learn More</a>
                     </div>
                     <div className="col-md-5 d-flex align-items-center">
