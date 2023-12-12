@@ -14,7 +14,7 @@ import "bootstrap/dist/js/bootstrap.bundle.min";
 const rootElement = document.getElementById("root");
 
 ReactDOM.createRoot(rootElement).render(
-    <Router>
+    <Router basename="/EPI-dashboard">
         <React.StrictMode>
             <Navbar />
             <Routes>
