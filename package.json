@@ -6,7 +6,7 @@
   "author": "Creative Tim",
   "license": "See license in https://www.creative-tim.com/license",
   "description": "React version of Material Kit 2 by Creative Tim integrated with visualization project",
-  "homepage": "https://demos.creative-tim.com/material-kit-react/#/",
+  "homepage": "https://LouisePeiPei.github.io/EPI-dashboard/",
   "bugs": {
     "url": "https://github.com/creativetimofficial/ct-material-kit-react/issues"
   },
@@ -15,6 +15,8 @@
     "url": "git+https://github.com/creativetimofficial/ct-material-kit-react.git"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist",
     "dev": "vite",
     "build": "vite build || react-scripts build",
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0 || eslint ./src",
@@ -70,6 +72,7 @@
     "eslint-plugin-react": "^7.33.2",
     "eslint-plugin-react-hooks": "^4.6.0",
     "eslint-plugin-react-refresh": "^0.4.4",
+    "gh-pages": "^6.1.0",
     "prettier": "2.8.7",
     "vite": "^5.0.7"
   },
