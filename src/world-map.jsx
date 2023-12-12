@@ -18,7 +18,7 @@ const WorldMap = () => {
   useEffect(() => {
     const fetchCSVData = async () => {
       try {
-        const response = await fetch(`../data/${selectedCSV}`);
+        const response = await fetch(`data/${selectedCSV}`);
         const reader = response.body.getReader();
         const result = await reader.read();
         const decoder = new TextDecoder('utf-8');
