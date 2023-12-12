@@ -3,6 +3,7 @@ import React, { useEffect } from 'react';
 import "bootstrap/dist/css/bootstrap.min.css";
 // Bootstrap Bundle JS
 import "bootstrap/dist/js/bootstrap.bundle.min";
+import { Link } from 'react-router-dom';
 
 const HomePage = () => {
     useEffect(() => {
@@ -33,8 +34,7 @@ const HomePage = () => {
                             Dive deep, uncover correlations with socioeconomic factors, and embark on a journey
                             of discovery with this powerful analytical tool.
                         </p>
-                        <a className="btn btn-lg" href="alicia/epi-dashboard.html" target="_blank" role="button" style={{ backgroundColor: '#a1c9ff' }}>Get started</a>
-                        <a className="btn btn-lg" href="https://epi.yale.edu/about-epi" target="_blank" role="button" style={{ backgroundColor: '#e0eaff' }}>Learn More</a>
+                        <Link className="btn btn-lg" to="/bubble" role="button" style={{ backgroundColor: '#a1c9ff' }}>Get started</Link><a className="btn btn-lg" href="https://epi.yale.edu/about-epi" target="_blank" role="button" style={{ backgroundColor: '#e0eaff' }}>Learn More</a>
                     </div>
                     <div className="col-md-5 d-flex align-items-center">
                         <img src="https://cdn.osxdaily.com/wp-content/uploads/2012/12/usa-at-night-wallpaper.jpeg" alt="global picture" className="custom-image" />

@@ -18,7 +18,7 @@ const Navbar = () => {
                         <Link className="nav-link" to="/bubble">Bubble Chart</Link> 
                     </li>
                     <li className="nav-item">
-                        <Link className="nav-link" to="https://opal.ils.unc.edu/~albao/inls-641/final/alicia/">Scatterplot Comparison</Link>
+                        <a className="nav-link" href="https://opal.ils.unc.edu/~albao/inls-641/final/alicia/" target="_blank" rel="noopener noreferrer">Scatterplot Comparison</a>
                     </li>
                     <li className="nav-item">
                         <Link className="nav-link" to="/world-map">World Map</Link>
